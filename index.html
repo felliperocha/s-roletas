@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sniper das Roletas</title>
+
+<style>
+:root{
+  --bg:#0b0b0f;
+  --card:#111118;
+  --primary:#6d5cff;
+  --secondary:#8b7cff;
+  --text:#ffffff;
+  --muted:#9aa0aa;
+  --border:#1f1f2a;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:system-ui;}
+body{background:var(--bg);color:var(--text);}
+.container{max-width:1100px;margin:auto;padding:60px 20px;}
+
+h1{font-size:3rem;margin-bottom:20px;}
+h2{font-size:2rem;margin-bottom:20px;}
+h3{margin-bottom:10px;}
+p{color:var(--muted);}
+
+.hero{text-align:center;padding:120px 20px;}
+.badge{
+  background:#1b1b26;
+  display:inline-block;
+  padding:6px 12px;
+  border-radius:20px;
+  margin-bottom:20px;
+  font-size:0.9rem;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 24px;
+  border-radius:10px;
+  text-decoration:none;
+  margin:10px;
+}
+
+.btn-primary{background:var(--primary);color:white;}
+.btn-secondary{background:#1a1a25;color:white;}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:25px;
+  border-radius:16px;
+}
+
+.pricing-card{
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:30px;
+  border-radius:16px;
+  text-align:center;
+}
+
+.price{font-size:2rem;margin:20px 0;}
+
+.cta{
+  text-align:center;
+  background:#111118;
+}
+
+input{
+  width:100%;
+  padding:14px;
+  border-radius:8px;
+  border:none;
+  margin-top:10px;
+  background:#0f0f15;
+  color:white;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="container">
+    <div class="badge">Automação e Monitoramento</div>
+    <h1>Sniper das Roletas</h1>
+
+    <p style="max-width:700px;margin:auto;">
+      Plataforma para monitoramento de padrões,
+      execução automatizada de estratégias e análise estatística
+      em tempo real.
+    </p>
+
+    <a class="btn btn-primary">Testar</a>
+    <a class="btn btn-secondary">Ver recursos</a>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 style="text-align:center;">Recursos</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Detecção de padrões</h3>
+        <p>Monitoramento contínuo de resultados automaticamente.</p>
+      </div>
+
+      <div class="card">
+        <h3>Execução automática</h3>
+        <p>Estratégias configuráveis com controle total.</p>
+      </div>
+
+      <div class="card">
+        <h3>Dashboard</h3>
+        <p>Métricas e histórico em tempo real.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 style="text-align:center;">Por que usar?</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Velocidade</h3>
+        <p>Execução rápida e automatizada.</p>
+      </div>
+
+      <div class="card">
+        <h3>Controle</h3>
+        <p>Configuração completa de estratégias.</p>
+      </div>
+
+      <div class="card">
+        <h3>Análise</h3>
+        <p>Dados e estatísticas detalhadas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 style="text-align:center;">Planos</h2>
+
+    <div class="grid">
+
+      <div class="pricing-card">
+        <h3>Starter</h3>
+        <div class="price">R$29/mês</div>
+        <p>Monitoramento básico</p>
+        <p>Estratégias manuais</p>
+        <a class="btn btn-secondary">Começar</a>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Pro</h3>
+        <div class="price">R$79/mês</div>
+        <p>Execução automática</p>
+        <p>Dashboard completo</p>
+        <a class="btn btn-primary">Assinar</a>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Lifetime</h3>
+        <div class="price">R$297</div>
+        <p>Acesso vitalício</p>
+        <p>Todas funcionalidades</p>
+        <a class="btn btn-secondary">Comprar</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>Comece agora</h2>
+    <p>Crie sua conta para usar o Sniper.</p>
+
+    <input placeholder="Seu email">
+    <a class="btn btn-primary" style="width:100%;">Criar conta</a>
+  </div>
+</section>
+
+</body>
+</html>
